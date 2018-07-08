@@ -6,7 +6,7 @@
 			</title>
 		</head>
 		<body>
-			You can use my "Random number": <a href="http://randomworld.ua/index2.php">Click here!</a>
+			You can use my "Random number": <a href="https://mrtrololoshka70.000webhostapp.com/index2.php">Click here!</a>
 			<p align="right"><font color="red">(HORSE - yes, FACE - no)</font></p>
 			<center>
 				<p>

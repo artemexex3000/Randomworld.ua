@@ -6,7 +6,7 @@
 			</title>
 		</head>
 		<body>
-			You can use my "Random coin": <a href="http://randomworld.ua/index.php">Click here!</a>
+			You can use my "Random coin": <a href="https://mrtrololoshka70.000webhostapp.com/index.php">Click here!</a>
 			<center>
 				<p>
 					<h3>
@@ -31,8 +31,6 @@
 				</form>
 				<br />
 				<?php
-				$_POST['fnumber'];
-				$_POST['snumber'];
 				if (isset ($_POST['random'])) {
 					$rand = rand($_POST['fnumber'], $_POST['snumber']);
 					echo $rand;
