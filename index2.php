@@ -23,9 +23,11 @@
 			</center>
 			<center>
 				<form action="index2.php" method="POST">
-					first number:<input type="text" name="fnumber">
+					first number:<input type="number" name="fnumber">
 					<br />
-					second number:<input type="text" name="snumber">
+					<br />
+					second number:<input type="number" name="snumber">
+					<br />
 					<br />
 					<input type="submit" name="random" value="RANDOM">
 				</form>
