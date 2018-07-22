@@ -33,9 +33,24 @@
 				</form>
 				<br />
 				<?php
+				if ($_POST['fnumber'] <= 2147483647) {
 				if (isset ($_POST['random'])) {
 					$rand = rand($_POST['fnumber'], $_POST['snumber']);
 					echo $rand;
+				} } elseif ($_POST['fnumber'] >= -2147483648) {
+				if (isset ($_POST['random'])) {
+					$rand = rand($_POST['fnumber'], $_POST['snumber']);
+					echo $rand;
+				} } elseif ($_POST['snumber'] <= 2147483647) {
+				if (isset ($_POST['random'])) {
+					$rand = rand($_POST['fnumber'], $_POST['snumber']);
+					echo $rand;
+				} } elseif ($_POST['snumber'] >= -2147483648) {
+				if (isset ($_POST['random'])) {
+					$rand = rand($_POST['fnumber'], $_POST['snumber']);
+					echo $rand;
+				} } else {
+					echo 'error';
 				}
 				?>
 			</center>
