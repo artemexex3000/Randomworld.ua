@@ -36,6 +36,7 @@
 				</form>
 				<br />
 				<?php
+				if (isset($_POST['fnumber']) and isset($_POST['snumber'])) {
 				if (is_numeric($_POST['fnumber']) and is_numeric($_POST['snumber'])) {
 				if ($_POST['fnumber'] >= 0 AND $_POST['fnumber'] <= 999999 AND $_POST['snumber'] >= 0 AND $_POST['snumber'] <= 999999) {
 					if (isset ($_POST['random'])) {
@@ -44,8 +45,8 @@
 				} } else {
 					echo 'Error';
 				} } else {
-					echo 'It must be a number!';
-				}
+					echo 'Enter the number!';
+				} }
 				?>
 			</center>
 		</body>
